@@ -6,4 +6,6 @@ simple-git is a python project tried to write a simple version of git with full 
 # supported features in v1
 |简称|功能描述|用法|
 |-|-|-|
-|branch|实现了git分支||
+|commit|git提交操作，可以生成hash id|commit(content)|
+|new branch|新建空分支操作|new_branch(name)|
+|fork branch|复制分支|fork_branch(A, B)|
