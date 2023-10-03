@@ -8,4 +8,5 @@ simple-git is a python project tried to write a simple version of git with full 
 |-|-|-|
 |commit|git提交操作，可以生成hash id|commit(content)|
 |new branch|新建空分支操作|new_branch(name)|
-|fork branch|复制分支|fork_branch(A, B)|
+|fork branch|复制分支|fork_branch(source, target)|
+|switch branch|切换分支|switch_branch(name)|
