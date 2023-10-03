@@ -3,7 +3,13 @@ simple-git是一个python写的，简单版本的git。这里有着很全的注�
 
 simple-git is a python project tried to write a simple version of git with full comments, help devs to learn "how git works".
 
-# supported features in v1
+# v1
+### requirements
+```
+difflib ............... python built-in package
+```
+
+### supported features
 |简称|功能描述|用法|
 |-|-|-|
 |commit|git提交操作，可以生成hash id|commit(content)|
